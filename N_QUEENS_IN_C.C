@@ -58,3 +58,5 @@ void main(){
 	queen(n);
 	printf("\nTotal solutions=%d",count);
 }
+
+//https://www.youtube.com/watch?v=fIKLtPEqw_o
