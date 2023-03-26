@@ -1,6 +1,8 @@
 #include<iostream>
 #include<climits>
 using namespace std;
+//DENOMINATIONS OF COINS ARE GIVEN AND EACH COIN IS INFINITE I.E. ABY NO. OF COINS CAN BE USED.
+//BUT WE NEED TO USE THE MINIMUM NO. OF COINS TO GET THE SUM AS N.
 int mincoins_td(int n,int coins[],int T,int dp[]){
 	//T different types of coins
 	if(n==0){
